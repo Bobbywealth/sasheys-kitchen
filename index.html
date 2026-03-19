@@ -712,7 +712,7 @@
 
         // Modals
         function openOrderModal() {
-            window.open('https://order.online/store/-1344693?hideModal=true&delivery=true', '_blank');
+            orderModal.classList.add('active'); document.body.style.overflow = 'hidden';
         }
         function closeOrderModal() {
             orderModal.classList.remove('active');
