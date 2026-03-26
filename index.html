@@ -113,6 +113,7 @@
             transform: translate(-50%, -50%);
             mix-blend-mode: screen;
             transition: opacity 0.5s ease;
+            will-change: transform, opacity;
         }
 
         /* Floating Particles */
@@ -123,6 +124,7 @@
             pointer-events: none;
             z-index: 5;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            will-change: transform, opacity;
         }
 
         @keyframes floatParticle {
@@ -183,6 +185,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: shimmerText 3s linear infinite;
+            will-change: background-position;
         }
         @keyframes shimmerText {
             to { background-position: -200% center; }
@@ -633,11 +636,11 @@
                 </p>
             </div>
             <div>
-                <h4 class="font-bold mb-4 text-sunset">Hours</h4>
+                <h3 class="font-bold mb-4 text-sunset">Hours</h3>
                 <p class="text-sand/70 text-sm">Mon: Closed<br>Tue-Thu: 10am - 8:30pm<br>Fri-Sat: 10am - 9pm<br>Sun: 10:30am - 8pm</p>
             </div>
             <div>
-                <h4 class="font-bold mb-4 text-sunset">Contact</h4>
+                <h3 class="font-bold mb-4 text-sunset">Contact</h3>
                 <p class="text-sand/70 text-sm"><a href="https://maps.google.com/?q=1400+Burnet+Ave+Union+NJ+07083" target="_blank" rel="noopener" class="hover:text-sunset transition-colors">1400 Burnet Ave<br>Union, NJ 07083</a><br><br><a href="tel:9086868178" class="hover:text-sunset transition-colors">(908) 686-8178</a></p>
             </div>
         </div>
