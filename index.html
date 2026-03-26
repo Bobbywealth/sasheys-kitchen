@@ -394,7 +394,7 @@
     <div id="particles"></div>
 
     <!-- Audio Toggle (Top Right) -->
-    <button id="audioToggle" class="fixed top-24 right-6 z-50 w-12 h-12 rounded-full glass flex items-center justify-center hover:border-sunset transition-colors group" aria-label="Toggle Music">
+    <button id="audioToggle" aria-label="Toggle background music" aria-pressed="false" class="fixed top-24 right-6 z-50 w-12 h-12 rounded-full glass flex items-center justify-center hover:border-sunset transition-colors group" aria-label="Toggle Music">
         <svg class="w-5 h-5 text-sand/50 group-hover:text-sunset transition-colors" id="audioIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
         </svg>
@@ -445,7 +445,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <main> <!-- Hero Section -->
     <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
         
         <!-- Video Background -->
@@ -537,7 +537,7 @@
 
                         <!-- View Full Menu Button -->
             <div class="text-center mt-12 mb-4">
-                <a href="https://order.online/store/-1344693?hideModal=true&delivery=true target="_blank" class="btn-primary px-10 py-4 rounded-full text-charcoal font-bold text-lg inline-block hover:scale-105 transition-transform">View Full Menu</a>
+                <a href="https://order.online/store/-1344693?hideModal=true&delivery=true" target="_blank" rel="noopener" class="btn-primary px-10 py-4 rounded-full text-charcoal font-bold text-lg inline-block hover:scale-105 transition-transform">View Full Menu</a>
             </div>
         </div>
     </section>
@@ -612,11 +612,11 @@
                 <div class="flex gap-8 reveal">
                     <div>
                         <span class="block text-3xl font-bold shimmer">15+</span>
-                        <span class="text-sand/40 text-sm">Years of Tradition</span>
+                        <span class="text-sand/70 text-sm">Years of Tradition</span>
                     </div>
                     <div>
                         <span class="block text-3xl font-bold shimmer">100%</span>
-                        <span class="text-sand/40 text-sm">Fresh Ingredients</span>
+                        <span class="text-sand/70 text-sm">Fresh Ingredients</span>
                     </div>
                 </div>
             </div>
@@ -628,17 +628,17 @@
         <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
             <div class="md:col-span-2">
                 <img src="https://iili.io/qwv74u2.th.png" alt="Sasheys Kitchen Logo - Authentic Jamaican Restaurant" class="h-14 mb-4">
-                <p class="text-sand/40 max-w-sm">
+                <p class="text-sand/70 max-w-sm">
                     Authentic Jamaican cuisine made with love. Visit us or order online for a taste of the Caribbean.
                 </p>
             </div>
             <div>
                 <h4 class="font-bold mb-4 text-sunset">Hours</h4>
-                <p class="text-sand/40 text-sm">Mon: Closed<br>Tue-Thu: 10am - 8:30pm<br>Fri-Sat: 10am - 9pm<br>Sun: 10:30am - 8pm</p>
+                <p class="text-sand/70 text-sm">Mon: Closed<br>Tue-Thu: 10am - 8:30pm<br>Fri-Sat: 10am - 9pm<br>Sun: 10:30am - 8pm</p>
             </div>
             <div>
                 <h4 class="font-bold mb-4 text-sunset">Contact</h4>
-                <p class="text-sand/40 text-sm">1400 Burnet Ave<br>Union, NJ 07083<br><br>(908) 686-8178</p>
+                <p class="text-sand/70 text-sm"><a href="https://maps.google.com/?q=1400+Burnet+Ave+Union+NJ+07083" target="_blank" rel="noopener" class="hover:text-sunset transition-colors">1400 Burnet Ave<br>Union, NJ 07083</a><br><br><a href="tel:9086868178" class="hover:text-sunset transition-colors">(908) 686-8178</a></p>
             </div>
         </div>
         <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sand/30 text-xs">
@@ -671,13 +671,13 @@
             <p class="text-sand/50 mb-8">Choose how you want to experience Sashey's Kitchen.</p>
             
             <div class="space-y-4">
-                <a href=https://order.online/store/-1344693?hideModal=true&delivery=true target="_blank" class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 transition-colors group">
+                <a href=https://order.online/store/-1344693?hideModal=true&delivery=true" target="_blank" rel="noopener" class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center text-2xl">
                         🚗
                     </div>
                     <div>
                         <span class="font-semibold group-hover:text-sunset transition-colors">Delivery</span>
-                        <p class="text-sand/40 text-sm">Get it delivered to your door</p>
+                        <p class="text-sand/70 text-sm">Get it delivered to your door</p>
                     </div>
                 </a>
                 <a href=https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=fbdcc1fa-beb8-46fd-9a98-2b5894181214 target="_blank" class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 transition-colors group">
@@ -686,7 +686,7 @@
                     </div>
                     <div>
                         <span class="font-semibold group-hover:text-sunset transition-colors">Pickup</span>
-                        <p class="text-sand/40 text-sm">Ready when you arrive</p>
+                        <p class="text-sand/70 text-sm">Ready when you arrive</p>
                     </div>
                 </a>
             </div>
@@ -838,13 +838,13 @@
                                 <h3 class="text-lg font-bold">${item.name}</h3>
                                 <span class="text-sunset font-bold">$${item.price.toFixed(2)}</span>
                             </div>
-                            <p class="text-sand/40 text-sm mb-4 line-clamp-2">${item.desc}</p>
+                            <p class="text-sand/70 text-sm mb-4 line-clamp-2">${item.desc}</p>
                             <div class="flex items-center justify-between">
                                 <div class="flex gap-1">
                                     ${Array(5).fill(0).map((_, i) => `<span class="text-xs ${i < item.spice ? 'text-red-400' : 'text-white/10'}">🔥</span>`).join('')}
                                 </div>
                                 <button onclick="event.stopPropagation(); openOrderModal()" class="text-xs font-semibold text-mango hover:underline">
-                                    Add to Order
+                                    Order This
                                 </button>
                             </div>
                         </div>
@@ -891,14 +891,14 @@
                         <p class="text-sand/60 mb-6">${item.desc}</p>
                         
                         <div class="mb-6">
-                            <span class="text-sm text-sand/40 block mb-2">Spice Level</span>
+                            <span class="text-sm text-sand/70 block mb-2">Spice Level</span>
                             <div class="flex gap-1">
                                 ${Array(5).fill(0).map((_, i) => `<span class="text-lg ${i < item.spice ? 'opacity-100' : 'opacity-20'}">🌶️</span>`).join('')}
                             </div>
                         </div>
                         
                         <button onclick="closeItemModal(); openOrderModal();" class="w-full btn-primary py-3 rounded-full text-charcoal font-bold">
-                            Add to Order
+                            Order This
                         </button>
                     </div>
                 </div>
